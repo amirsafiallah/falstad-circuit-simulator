@@ -1,6 +1,8 @@
 Falstad-Circuit-Simulator
 =================
 
+![alt text](https://raw.githubusercontent.com/amirsafiallah/falstad-circuit-simulator/master/ss.png)
+
 This is the original version of Paul Falstad's circuit simulator with the following change(s):
 
 * Move source files to a package named (com.falstad)
