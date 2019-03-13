@@ -3149,7 +3149,7 @@ public class CirSim extends Frame
                 setMouseMode(MODE_SELECT);
             } else if (s.length() > 0) {
                 try {
-                    addingClass = Class.forName(s);
+                    addingClass = Class.forName(this.getClass().getPackage().getName() + "." + s);
                 } catch (Exception ee) {
                     ee.printStackTrace();
                 }
